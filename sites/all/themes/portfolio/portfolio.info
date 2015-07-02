@@ -1,0 +1,39 @@
+name = Portfolio
+description = The sub theme for my porfolio site.  Base theme is Portfolio Zymphonies Theme
+core = 7.x
+base theme = portfolio_zymphonies_theme
+
+engine = phptemplate
+
+stylesheets[all][] = css/overrides.css
+
+regions[user_menu]  	= User menu
+regions[aboutme]       	= About me
+regions[myworks]     	= My works
+regions[keyskills]      = Key skills
+regions[education]      = Education
+regions[awards]       	= Awards
+regions[resume]         = Resume
+regions[contact]       	= contact
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[content]        = Content
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[breadcrumbs]  = 1
+settings[social_links]  = 1
+settings[twitter_url] = "https://twitter.com/zymphonies"
+settings[facebook_url] = "https://www.facebook.com/zymphonies"
+settings[gplus_profile_url] = "https://plus.google.com/u/1/+ZymphoniesTechnologies"
+settings[linkedin_profile_url] = "https://www.linkedin.com/company/zymphonies"
+settings[pinterest_profile_url] = "http://www.pinterest.com/zymphonies/"
+settings[youtube_profile_url] = "http://www.youtube.com"
